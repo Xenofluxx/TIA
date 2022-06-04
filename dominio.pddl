@@ -1,11 +1,11 @@
-; lpg-td.exe –o dominio.pddl –f problema.pddl –n 3
+
 
 
 ;DOMINIO
 (define (domain agencia-transporte)
 
 
-;acciones durativas,predicados con tipo,funciones numéricas
+;acciones durativas,predicados con tipo,funciones numï¿½ricas
 (:requirements :durative-actions :typing :fluents)
 
 ;OBJETOS
@@ -23,7 +23,7 @@
 	     (combustion ?vehiculo - vehiculo))
 
 
-;FUNCIONES, NUMÉRICAS!!!!!!!!
+;FUNCIONES, NUMï¿½RICAS!!!!!!!!
 (:functions 
 
  
@@ -37,10 +37,10 @@
 ;cantidad del incremento al comprar derechos
 	    (incremento-en-euros)
 
-;dinero extra que se ha gastado para mover vehículos combustible, se le sumaráa (incremento-en-euros)
+;dinero extra que se ha gastado para mover vehï¿½culos combustible, se le sumarï¿½a (incremento-en-euros)
 	    (total-dinero-extra)
 
-;total distancia que se puede recorrer por vehículos combustible, se le sumará (incremento-en-euros)
+;total distancia que se puede recorrer por vehï¿½culos combustible, se le sumarï¿½ (incremento-en-euros)
 	    (total-distancia-recorrible-por-combustibles)
 
 )
